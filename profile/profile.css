@@ -32,10 +32,14 @@ main {
   align-items: flex-start;
 }
 
-#tag,
-#advantage,
+#tag-name,
+#strength,
 #word {
   margin: 10px;
+}
+
+#word {
+  font-style: italic;
 }
 
 .link-img {
@@ -48,7 +52,7 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 1px;
-  margin: 10px;
+  margin-right: 20px;
   background-image: url('https://pbs.twimg.com/profile_images/1228368893321736193/Ov0og7E8_400x400.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +63,6 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 10px;
   background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
   background-position: center;
   background-repeat: no-repeat;
