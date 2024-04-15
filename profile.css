@@ -1,0 +1,67 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: flex;
+}
+
+#circle-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url('/img/unnamed.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent2 {
+  margin-left: 30px;
+}
+
+.info {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#tag,
+#advantage,
+#word {
+  margin: 10px;
+}
+
+.link-img {
+  margin: 15px;
+  margin-left: 20px;
+  display: flex;
+}
+
+#velog-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1px;
+  margin: 10px;
+  background-image: url('/img/velog.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#github-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+  background-image: url('/img/github.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
