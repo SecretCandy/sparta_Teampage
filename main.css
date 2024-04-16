@@ -67,7 +67,7 @@
     align-items: center;
 }
 
-#memBtn:hover {
+.memBtn:hover {
     background-color: #479be0;
     transition: all 0.35s ease-in-out;
     border-radius: 95px;
