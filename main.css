@@ -27,6 +27,15 @@
     padding: 0px 5% 0px 5%;
 }
 
+.introCommnet {
+    color: gray;
+}
+.coLi {
+    color: gray;
+    list-style-type: none;
+}
+
+
 .title {
     font-weight: 700;
     font-size: 37px;
@@ -71,4 +80,5 @@
     width: 20px;
     height: 20px;
     object-fit: cover;
+    padding: 0;
   }
