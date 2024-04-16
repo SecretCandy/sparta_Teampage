@@ -6,14 +6,6 @@ const members = {
     github: 'SecretCandy',
     word: '모두 반갑습니다!! 열심히 화이팅 해봐요!! 👍',
   },
-  김동영: {
-    mbti: 'ENTJ',
-    strength: '긍정적인 태도를 가지고 모든 상황에 대처합니다',
-    tag: '팀원',
-    velog: 'love1ace',
-    github: 'love1ace',
-    word: '화이팅',
-  },
   김지환: {
     mbti: 'INFJ',
     strength: '회복탄력성이 좋고 매사에 최선을 다하는 편',
@@ -28,14 +20,6 @@ const members = {
     velog: '2hanbyeol1',
     github: '2hanbyeol1',
     word: '다같이 열심히 해봅시다 🐹',
-  },
-  곽선아: {
-    mbti: 'INFP',
-    strength: '끝까지 최선을 다하고 설득을 잘 합니다',
-    tag: '팀원',
-    velog: 'hellojoyworldz',
-    github: 'hellojoyworldz',
-    word: '반갑습니다 화이팅!',
   },
   윤건희: {
     mbti: 'ISFJ',
