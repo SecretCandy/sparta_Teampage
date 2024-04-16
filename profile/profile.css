@@ -151,3 +151,29 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 720px) {
+  .parent {
+    flex-direction: column;
+  }
+
+  #circle-img {
+    margin-bottom: 15px;
+  }
+
+  .parent2 {
+    margin: 0;
+  }
+
+  .info {
+    margin-bottom: 35px;
+  }
+
+  .link-img {
+    justify-content: center;
+  }
+
+  .link-img a {
+    margin: 0 5px;
+  }
+}
