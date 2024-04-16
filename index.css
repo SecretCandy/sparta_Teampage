@@ -1,4 +1,5 @@
 #total {
+    height: 100vh;
     align-content: center;
     display: flex;
     justify-content: center;
@@ -6,8 +7,13 @@
 
 #total>div {
     width: 500px;
-    height: auto;
-    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container>div {
@@ -18,23 +24,22 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 70%;
-    justify-content: space-around;
     align-items: center;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     padding: 0px 10% 0px 10%;
+    margin-bottom: 30px;
 }
 
-.introCommnet {
+.introComment {
     color: gray;
 }
 
-.coLi {
-    color: gray;
+.introComment li {
     list-style-type: none;
-    margin-bottom: 40px;
 }
 
 /* 정렬 필요 */
@@ -42,6 +47,7 @@ ul { margin: 0 auto; display: table;}
 ul li{ margin: 4px 0;}
 
 .title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 50px;
     color: #00bbff;
@@ -49,6 +55,7 @@ ul li{ margin: 4px 0;}
 }
 
 .intro {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 25px;
     align-items: center;
@@ -89,4 +96,18 @@ ul li{ margin: 4px 0;}
 
 #commitBtn {
     padding: 5px auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .memProfImg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .memProfImg {
+        width: 200px;
+        height: 200px;
+    }
 }

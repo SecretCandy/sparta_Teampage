@@ -9,3 +9,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0 !important;
+}
