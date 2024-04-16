@@ -1,0 +1,74 @@
+#total {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+#total > div {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.container > div {
+    display: inline-flex;
+}
+
+#text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    padding: 0px 5% 0px 5%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 37px;
+    color: #00bbff;
+    align-items: center;
+}
+
+.intro {
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+}
+
+.comment {
+    align-items: center;
+    margin: 10px;
+}
+
+/* 이미지 */
+.memProfImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px auto;
+    
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memBtn:hover {
+    background-color: #479be0;
+    transition: all 0.35s ease-in-out;
+    border-radius: 95px;
+    padding: 0;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+  }
+
+  #commitPointer {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
