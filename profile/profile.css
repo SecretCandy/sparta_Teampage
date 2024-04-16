@@ -6,8 +6,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px 0;
-  background-color: #0dcaf030;
+  padding: 15px 0;
+  border-bottom: 1px solid lightgray;
 }
 
 header * {
@@ -17,12 +17,12 @@ header * {
 header a {
   color: black;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 header div {
   font-size: 1.7rem;
-  color: #0dacf0;
-  text-shadow: 1.5px 1.5px #9f9f9f
+  color: #00bbff;
 }
 
 main {
