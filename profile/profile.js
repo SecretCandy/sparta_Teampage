@@ -43,7 +43,7 @@ function getName() {
  * 팀원의 이름을 이용하여 소개글을 넣습니다
  */
 function setInfo(name, info) {
-  $('#circle-img').attr('src', `../img/members/${info.github}.jpg`);
+  $('#img').attr('src', `../img/members/${info.github}.jpg`);
   $('#tag').text(info.tag);
   $('#name').text(name);
   $('#mbti').text(info.mbti);
